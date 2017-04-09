@@ -1,0 +1,7 @@
+﻿@model decimal
+<div class="form-group">
+    @Html.Label("", new { @class = "control-label col-sm-2" })
+    <div class="col-sm-10">
+        @Html.TextBox("", string.Format("{0:F2}", Model), new { @class = "form-control" })
+    </div>
+</div>
